@@ -1,0 +1,17 @@
+! Title: Personal AdGuard Filter
+! Description: Supplemental rules for advertising and popup sources observed on HH3D.
+! Version: 1.0.0
+! Last modified: 2026-11-11
+! Expires: 1 day
+!
+! Use alongside the standard AdGuard filters.
+! These rules target advertising domains independently of the HH3D website domain.
+! Update this list if the advertising sources change.
+!
+! Observed with Playwright on 2026-11-11.
+! Primary advertising script and popup source.
+||excavatenearbywand.com^
+! Fallback advertising script and popup source.
+||ocmcazmweagv.in^
+! Observed popup destination.
+||displayendpointstarring.com^
